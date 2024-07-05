@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.landimg{
+    background-image: url(skincare12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+}
+
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center; 
+    /* border: 2px solid green;   */
+    height: 40rem;
+    width: 50rem;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    /* position: relative;
+    left: 50px;
+    top: 50px; */
+}
+.big1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    /* border: 2px solid orange;  */
+}
+.big2{
+    /* border: 2px solid orangered; */
+    margin: 2rem  0;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#namesec{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    
+}
+#emailsec{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    
+}
+#subjectsec{
+    width: 48rem;
+    height: 3rem;
+    border-radius: 5px;
+    
+}
+#namesec:hover{
+    
+    
+    border: 2px solid orangered;
+    transition: 0.5s ease-in-out all;
+}
+#emailsec:hover{
+    
+    border: 2px solid orangered;
+    transition: 0.5s ease-in-out all;
+}
+#subjectsec:hover{
+    cursor: text;
+    border: 2px solid orangered;
+    transition: 0.5s ease-in-out all;
+}
+#messagesec:hover{
+    transition: 0.5s ease-in-out all;
+    border: 2px solid orangered;
+}
+.send{
+    width: 20rem;
+    height: 4rem;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.send:hover{
+    background: teal;
+    color: white;
+    transition: 0.5s ease-in-out all;
+    cursor: pointer;
+    border: none;
+}
